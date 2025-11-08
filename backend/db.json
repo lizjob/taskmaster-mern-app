@@ -1,0 +1,227 @@
+{
+  "users": [
+    {
+      "id": "b3ed27ce-ab12-4241-828d-7ef259a5afc4",
+      "name": "anjana",
+      "email": "anjana@gmail.com",
+      "password": "$2a$10$sL5sXImlboCxWtl7j0/IY.4m8k1wNyKUk/k.5jHPxEbl30uQNqqZG",
+      "createdAt": "2025-10-23T08:08:07.723Z",
+      "deleted": false
+    },
+    {
+      "id": "5b70bbb0-08f0-47d9-aac4-1276644dfdcc",
+      "name": "amal",
+      "email": "amal@gmail.com",
+      "password": "$2a$10$nKhfAu2egPJISztnJAtfw.5m4rttBFHrKVbUOhZa9CuzewOoqQJlq",
+      "createdAt": "2025-10-23T08:56:09.800Z",
+      "deleted": false
+    },
+    {
+      "id": "84898810-f25d-4ee8-b849-745cfa9cfe34",
+      "name": "dev",
+      "email": "dev@gmail.com",
+      "password": "$2a$10$zvXOHVzKZO5Pq7abgdyC7u.ToGUEvVd2nGpxGCC83AkuZt0tDk5y2",
+      "createdAt": "2025-10-23T08:59:45.600Z",
+      "deleted": false
+    },
+    {
+      "id": "cc3ec6d5-0319-4f47-b2dd-ba0a40ccde4f",
+      "name": "test",
+      "email": "testuser@example.com",
+      "password": "$2a$10$aqlf1edL9UFUL7qNcYhAOeLTGgvQC0tmixXs1MGqB3VK3T17VNe8q",
+      "createdAt": "2025-10-25T07:35:21.383Z",
+      "deleted": false
+    },
+    {
+      "id": "77478ee6-2bc4-4ae5-81f0-d1aed7ceb458",
+      "name": "Jane Doe",
+      "email": "janedoe@gmail.com",
+      "password": "$2a$10$JKhby4ZGhGNSnERZeF4wROnrIAkz1S1xESxlQtXIxcREKOLQDeh6G",
+      "createdAt": "2025-11-08T05:48:28.455Z",
+      "deleted": false
+    }
+  ],
+  "tasks": [
+    {
+      "id": "d88edb3d-f6e7-40b0-8ad9-6de1e7094719",
+      "title": "assignment",
+      "description": "complete the company assignment within 48hrs",
+      "status": "in-progress",
+      "priority": "high",
+      "due_date": "2025-10-23",
+      "tags": [
+        "important",
+        "high"
+      ],
+      "assigned_to": null,
+      "files": [
+        "cf6d9ee4-0686-433e-ae86-a2f50b6269d8"
+      ],
+      "comments": [
+        "e68b79ec-5ebb-49ef-af77-60d815054c94"
+      ],
+      "createdBy": "b3ed27ce-ab12-4241-828d-7ef259a5afc4",
+      "createdAt": "2025-10-23T08:17:17.576Z",
+      "deleted": false
+    },
+    {
+      "id": "d70c420d-936e-4219-b8d0-cf97574ad314",
+      "title": "assignment",
+      "description": "complete assignment",
+      "status": "in-progress",
+      "priority": "high",
+      "due_date": "2025-10-25",
+      "tags": [
+        "high"
+      ],
+      "assigned_to": null,
+      "files": [
+        "620ae05a-eef7-46d5-a2ee-22a7c03b5dc3",
+        "dd4411ce-a215-4d74-9fa3-8d60c501a1bf"
+      ],
+      "comments": [
+        "a2ca2c67-0b70-41cb-abd2-316a67ee65a7",
+        "a14d9c17-1477-49f5-a192-b046cc78e058"
+      ],
+      "createdBy": "b3ed27ce-ab12-4241-828d-7ef259a5afc4",
+      "createdAt": "2025-10-23T08:18:04.273Z",
+      "deleted": false
+    },
+    {
+      "id": "4dbc7740-9427-474b-81f7-de356be95c39",
+      "title": "drink water",
+      "description": "drink lots of water",
+      "status": "done",
+      "priority": "low",
+      "due_date": "2025-10-23",
+      "tags": [
+        "health"
+      ],
+      "assigned_to": "",
+      "files": [],
+      "comments": [],
+      "createdBy": "b3ed27ce-ab12-4241-828d-7ef259a5afc4",
+      "createdAt": "2025-10-23T08:40:23.627Z",
+      "deleted": false,
+      "completedAt": "2025-10-23T08:40:56.560Z",
+      "updatedAt": "2025-10-23T08:40:56.560Z"
+    },
+    {
+      "id": "1eb14aa8-92b2-4238-9d08-4c0d814b646f",
+      "title": "assignment complete",
+      "description": "complete the given assignment",
+      "status": "in-progress",
+      "priority": "high",
+      "due_date": "2025-10-25",
+      "tags": [
+        "highly important"
+      ],
+      "assigned_to": null,
+      "files": [
+        "6a61c791-1f6f-4635-94c1-a99838067a71"
+      ],
+      "comments": [],
+      "createdBy": "cc3ec6d5-0319-4f47-b2dd-ba0a40ccde4f",
+      "createdAt": "2025-10-25T07:36:29.186Z",
+      "deleted": false
+    },
+    {
+      "id": "7d3d1fc8-8e29-4c3e-804c-ef0aff3cd1f9",
+      "title": "hello",
+      "description": "hello",
+      "status": "done",
+      "priority": "medium",
+      "due_date": "2025-11-08",
+      "tags": [
+        "healthy"
+      ],
+      "assigned_to": "",
+      "files": [],
+      "comments": [],
+      "createdBy": "77478ee6-2bc4-4ae5-81f0-d1aed7ceb458",
+      "createdAt": "2025-11-08T05:49:08.441Z",
+      "deleted": false,
+      "updatedAt": "2025-11-08T05:50:03.283Z",
+      "completedAt": "2025-11-08T05:50:03.283Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "a2ca2c67-0b70-41cb-abd2-316a67ee65a7",
+      "taskId": "d70c420d-936e-4219-b8d0-cf97574ad314",
+      "author": "b3ed27ce-ab12-4241-828d-7ef259a5afc4",
+      "text": "complete this part",
+      "createdAt": "2025-10-23T08:26:43.050Z",
+      "deleted": true,
+      "updatedAt": "2025-10-23T08:29:14.365Z",
+      "deletedAt": "2025-10-23T08:29:18.620Z"
+    },
+    {
+      "id": "a14d9c17-1477-49f5-a192-b046cc78e058",
+      "taskId": "d70c420d-936e-4219-b8d0-cf97574ad314",
+      "author": "b3ed27ce-ab12-4241-828d-7ef259a5afc4",
+      "text": "complete",
+      "createdAt": "2025-10-23T08:32:38.658Z",
+      "deleted": false
+    },
+    {
+      "id": "e68b79ec-5ebb-49ef-af77-60d815054c94",
+      "taskId": "d88edb3d-f6e7-40b0-8ad9-6de1e7094719",
+      "author": "b3ed27ce-ab12-4241-828d-7ef259a5afc4",
+      "text": "complete this part",
+      "createdAt": "2025-10-23T08:44:35.100Z",
+      "deleted": false
+    }
+  ],
+  "files": [
+    {
+      "id": "620ae05a-eef7-46d5-a2ee-22a7c03b5dc3",
+      "taskId": "d70c420d-936e-4219-b8d0-cf97574ad314",
+      "originalName": "Screenshot 2025-07-19 193347.png",
+      "storedName": "1761207991002-665641693.png",
+      "path": "/uploads/1761207991002-665641693.png",
+      "mimetype": "image/png",
+      "size": 70793,
+      "uploadedBy": "b3ed27ce-ab12-4241-828d-7ef259a5afc4",
+      "createdAt": "2025-10-23T08:26:31.015Z",
+      "deleted": false
+    },
+    {
+      "id": "dd4411ce-a215-4d74-9fa3-8d60c501a1bf",
+      "taskId": "d70c420d-936e-4219-b8d0-cf97574ad314",
+      "originalName": "Screenshot 2025-07-19 193347.png",
+      "storedName": "1761208346613-56796916.png",
+      "path": "/uploads/1761208346613-56796916.png",
+      "mimetype": "image/png",
+      "size": 70793,
+      "uploadedBy": "b3ed27ce-ab12-4241-828d-7ef259a5afc4",
+      "createdAt": "2025-10-23T08:32:26.620Z",
+      "deleted": false
+    },
+    {
+      "id": "cf6d9ee4-0686-433e-ae86-a2f50b6269d8",
+      "taskId": "d88edb3d-f6e7-40b0-8ad9-6de1e7094719",
+      "originalName": "Screenshot 2025-07-20 091457.png",
+      "storedName": "1761209065976-932220374.png",
+      "path": "/uploads/1761209065976-932220374.png",
+      "mimetype": "image/png",
+      "size": 19285,
+      "uploadedBy": "b3ed27ce-ab12-4241-828d-7ef259a5afc4",
+      "createdAt": "2025-10-23T08:44:25.979Z",
+      "deleted": false
+    },
+    {
+      "id": "6a61c791-1f6f-4635-94c1-a99838067a71",
+      "taskId": "1eb14aa8-92b2-4238-9d08-4c0d814b646f",
+      "originalName": "Screenshot 2025-07-19 193347.png",
+      "storedName": "1761379706214-796856568.png",
+      "path": "/uploads/1761379706214-796856568.png",
+      "mimetype": "image/png",
+      "size": 70793,
+      "uploadedBy": "cc3ec6d5-0319-4f47-b2dd-ba0a40ccde4f",
+      "createdAt": "2025-10-25T08:08:26.220Z",
+      "deleted": false
+    }
+  ],
+  "tokens": []
+}
