@@ -28,7 +28,7 @@ A full-stack **Task Management Web Application** that allows users to **create, 
 
 ### 📦 Clone the Repository
 
-git clone https://github.com/Anjana130997/Task_management.git
+git clone https://github.com/lizjob/Task_management.git
 ---
 cd Task_management
 
@@ -98,7 +98,7 @@ Task-Management-System/
 🧠 Architecture Decisions
 | Component        | Technology    | Reason                              |
 | ---------------- | ------------- | ----------------------------------- |
-| Database         | JSON (LowDB)  | Lightweight, easy to manage locally |
+| Database         | MongoDB       | Lightweight, easy to manage locally |
 | Authentication   | JWT           | Secure and stateless auth           |
 | File Handling    | Multer        | Handles uploads efficiently         |
 | State Management | React Context | Simpler than Redux for small apps   |
